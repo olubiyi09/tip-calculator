@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tip Calculator</title>
+    <script
+      src="https://kit.fontawesome.com/1935d064dd.js"
+      crossorigin="anonymous"
+    ></script>
+    <!-- CSS only -->
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <section class="main">
+      <div class="container">
+        <div class="app-wrapper">
+          <div class="left">
+            <form action="">
+              <!-- <h1>Tip calculator</h1> -->
+              <div class="input">
+                <label for="">Bill:</label>
+                <input type="text" placeholder="$" class="bill" />
+                <div class="msg">Please enter number</div>
+              </div>
+              <label for="">Rate Service (Tip %)</label>
+              <div class="rate-tip">
+                <div class="fair rate">
+                  <p>Fair</p>
+                  <p class="percentage">5%</p>
+                </div>
+                <div class="good rate">
+                  <p>Good</p>
+                  <p class="percentage">10%</p>
+                </div>
+                <div class="excellent rate">
+                  <p>Excellent</p>
+                  <p class="percentage">15%</p>
+                </div>
+              </div>
+
+              <button class="calculate">Calculate Tip</button>
+            </form>
+          </div>
+          <div class="right">
+            <div class="tip-amount">Tip Amount: <span>$100</span></div>
+            <div class="total-amount">Total Amount: <span>$0</span></div>
+            <button class="reset">Reset</button>
+          </div>
+        </div>
+      </div>
+    </section>
+    <script src="script.js"></script>
+  </body>
+</html>
