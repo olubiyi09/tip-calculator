@@ -189,7 +189,7 @@ form label {
 .reset {
   background-color: #ee93e6;
   color: var(--color-primary);
-  margin-top: 7rem;
+  margin-top: 9rem;
 }
 
 .reset:hover {
