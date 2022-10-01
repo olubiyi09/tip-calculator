@@ -21,21 +21,22 @@
               <div class="input">
                 <label for="">Bill:</label>
                 <input type="text" placeholder="$" class="bill" />
-                <div class="msg">Please enter number</div>
+                <input type="text" placeholder="$" class="bill tip" />
+                <div class="msg">Please enter Bill and Tip %</div>
               </div>
-              <label for="">Rate Service (Tip %)</label>
+              <label for="">Rate Service (Select Tip %)</label>
               <div class="rate-tip">
                 <div class="fair rate">
                   <p>Fair</p>
-                  <p class="percentage">5%</p>
+                  <p class="percentage fp">10%</p>
                 </div>
                 <div class="good rate">
                   <p>Good</p>
-                  <p class="percentage">10%</p>
+                  <p class="percentage gp">15%</p>
                 </div>
                 <div class="excellent rate">
                   <p>Excellent</p>
-                  <p class="percentage">15%</p>
+                  <p class="percentage ep">20%</p>
                 </div>
               </div>
 
@@ -43,8 +44,14 @@
             </form>
           </div>
           <div class="right">
-            <div class="tip-amount">Tip Amount: <span>$100</span></div>
-            <div class="total-amount">Total Amount: <span>$0</span></div>
+            <div class="tip-amount">
+              Tip Amount:&#160; &#160;<span>$0</span>
+            </div>
+            <div class="total-amount">
+              Total Bill:&#160; &#160;<span>$0</span>
+            </div>
+
+            <div class="thank-you">Thank you</div>
             <button class="reset">Reset</button>
           </div>
         </div>

@@ -85,6 +85,10 @@ img {
   display: none;
 }
 
+.tip {
+  display: none;
+}
+
 .bill {
   padding: 1rem;
   border-radius: 3px;
@@ -161,13 +165,13 @@ form label {
 }
 
 .tip-amount,
-.total-amount {
+.total-amount,
+.thank-you {
   display: flex;
-  justify-content: space-between;
   align-items: center;
   margin-top: 3rem;
-  padding: 0 1rem;
-  font-size: 1.8rem;
+  padding: 0.5rem;
+  font-size: 2rem;
   color: #ee93e6;
   font-weight: 600;
   border: 1px solid;
@@ -175,18 +179,30 @@ form label {
   border-radius: 3px;
 }
 
-span {
-  font-size: 2.5rem;
+.thank-you {
+  border: none;
+  text-shadow: 0.2rem 0.2rem #ee93e6;
+  font-size: 3.5rem;
 }
 
 .reset {
   background-color: #ee93e6;
   color: var(--color-primary);
-  margin-top: 13rem;
+  margin-top: 5rem;
 }
 
 .reset:hover {
   background-color: #e072d7;
+}
+
+.myxc {
+  background-color: var(--color-primary);
+  color: #ee93e6;
+}
+
+.mypc {
+  background-color: rgb(241, 238, 238);
+  color: var(--black);
 }
 
 @media screen and (max-width: 700px) {
@@ -206,6 +222,6 @@ span {
   }
 
   .reset {
-    margin-top: 10rem;
+    margin-top: 3rem;
   }
 }
