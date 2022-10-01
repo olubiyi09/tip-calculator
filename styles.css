@@ -183,12 +183,13 @@ form label {
   border: none;
   text-shadow: 0.2rem 0.2rem #ee93e6;
   font-size: 3.5rem;
+  display: none;
 }
 
 .reset {
   background-color: #ee93e6;
   color: var(--color-primary);
-  margin-top: 5rem;
+  margin-top: 7rem;
 }
 
 .reset:hover {

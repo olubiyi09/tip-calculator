@@ -65,7 +65,15 @@ function calculateTip(e) {
 
     tipAmount.innerHTML = `Tip Amount: &#160; $${tip}`;
     totalAmount.innerHTML = `Total Bill: &#160; $${totalBill}`;
+    document.querySelector(".thank-you").style.display = "block";
+    hideThankYou();
   }
+}
+
+function hideThankYou() {
+  setTimeout(() => {
+    document.querySelector(".thank-you").style.display = "none";
+  }, 5000);
 }
 
 function resetAll() {
